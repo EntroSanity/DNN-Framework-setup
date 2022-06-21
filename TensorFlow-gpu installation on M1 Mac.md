@@ -1,7 +1,7 @@
 # TensorFlow-gpu installation on M1 Mac
 ---
 >**Check OS Availability**
-Update MacOS Monterey to 12.0+ Otherwise importing errors can occur :
+Update MacOS Monterey to 12.0+ Otherwise importing errors can occur :<br/>
 ```sh
 import tensorflow as tf
 'Expected in: /usr/lib/libc++.1.dylib'
@@ -32,7 +32,7 @@ python -m pip install tensorflow-metal
 ```
 ---
 >**Ipykernel**
-For the current environment 
+For the current environment make jupyter notebook observe it
 ```sh
 ## Automatically add all environments ##
 conda install nb_conda_kernels
