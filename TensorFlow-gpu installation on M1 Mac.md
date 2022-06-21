@@ -66,5 +66,5 @@ print("GPU is", "available" if gpu else "NOT AVAILABLE")
 | Description | README |
 | ------ | ------ |
 | Apple Developer | https://developer.apple.com/metal/tensorflow-plugin/ |
-| StackOverflow | |https://stackoverflow.com/questions/39604271/conda-environments-not-showing-up-in-jupyter-notebook|
-|StackOverflow| |https://stackoverflow.com/questions/71174306/expected-in-usr-lib-libc-1-dylib-installing-tensorflow-on-m1-macbook-pro|
+| StackOverflow | https://stackoverflow.com/questions/39604271/conda-environments-not-showing-up-in-jupyter-notebook|
+|StackOverflow| https://stackoverflow.com/questions/71174306/expected-in-usr-lib-libc-1-dylib-installing-tensorflow-on-m1-macbook-pro|
