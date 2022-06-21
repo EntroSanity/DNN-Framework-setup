@@ -48,6 +48,7 @@ For the current environment make jupyter notebook observe it :
 conda install nb_conda_kernels
 ---
 ## New kernel otherwise jupyter notebook not recognizing the environment ##
+
 source activate <env_name>
 python -m ipykernel install --user --name myenv --display-name "Python (myenv)"
 ```
@@ -65,3 +66,5 @@ print("GPU is", "available" if gpu else "NOT AVAILABLE")
 | Description | README |
 | ------ | ------ |
 | Apple Developer | https://developer.apple.com/metal/tensorflow-plugin/ |
+| StackOverflow | |https://stackoverflow.com/questions/39604271/conda-environments-not-showing-up-in-jupyter-notebook|
+|StackOverflow| |https://stackoverflow.com/questions/71174306/expected-in-usr-lib-libc-1-dylib-installing-tensorflow-on-m1-macbook-pro|
