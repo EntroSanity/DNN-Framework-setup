@@ -64,4 +64,4 @@ print("GPU is", "available" if gpu else "NOT AVAILABLE")
 
 | Description | README |
 | ------ | ------ |
-| Apple Developer | [https://developer.apple.com/metal/tensorflow-plugin/] |
+| Apple Developer | https://developer.apple.com/metal/tensorflow-plugin/ |
