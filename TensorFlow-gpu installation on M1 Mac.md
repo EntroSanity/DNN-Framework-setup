@@ -1,15 +1,17 @@
 # TensorFlow-gpu installation on M1 Mac
 ---
 >**Check OS Availability**
+
+
 Update MacOS Monterey to 12.0+ Otherwise importing errors can occur : 
-
-
 ```sh
 import tensorflow as tf
 'Expected in: /usr/lib/libc++.1.dylib'
 ```
 ---
 >**Build Miniforge**
+
+
 Obtain suitable versions at miniforge [github release page](https://github.com/conda-forge/miniforge/releases), build in the terminal, agree prompted conditions and deploy to the default location :
 ```sh
 sh ~/Downloads/Miniforge3-MacOSX-arm64.sh
@@ -52,6 +54,7 @@ python -m ipykernel install --user --name myenv --display-name "Python (myenv)"
 >**Examinination**
 
 
+Assess whether tensorflow is utilizing gpu now : 
 ```sh
 gpu = len(tf.config.list_physical_devices('GPU'))>0
 print("GPU is", "available" if gpu else "NOT AVAILABLE")
