@@ -59,3 +59,9 @@ Assess whether tensorflow is utilizing gpu now :
 gpu = len(tf.config.list_physical_devices('GPU'))>0
 print("GPU is", "available" if gpu else "NOT AVAILABLE")
 ```
+
+>**Reference**
+
+| Description | README |
+| ------ | ------ |
+| Apple Developer | [https://developer.apple.com/metal/tensorflow-plugin/] |
